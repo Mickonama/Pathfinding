@@ -173,7 +173,9 @@ if __name__ == '__main__':
                 pygame.draw.rect(screen, Color('white'), (i * gap, j * gap, gap, gap))
     pygame.draw.rect(screen, Color('blue'), (goal[0] * gap, goal[1] * gap, gap, gap))
     pygame.display.update()
-    dfs(Cell((1, 1)))
+    a_star(Cell((1, 1)))
+    # a comment
+    # a comment 2
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

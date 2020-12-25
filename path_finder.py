@@ -175,6 +175,7 @@ if __name__ == '__main__':
     pygame.display.update()
     a_star(Cell((1, 1)))
     # a comment
+    # a comment 2
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

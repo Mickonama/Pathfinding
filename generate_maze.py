@@ -11,8 +11,8 @@ from pygame.color import Color
 sys.setrecursionlimit(1000000)
 threading.stack_size(2**27)
 
-N = 50 * 2 + 1
-M = 50 * 2 + 1
+N = 200 * 2 + 1
+M = 200 * 2 + 1
 
 HEIGHT = N * (1000 // N)
 WIDTH = M * (1000 // N)

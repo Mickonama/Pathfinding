@@ -1,1 +1,1 @@
-# Pathfinding nice
+# Pathfinding algorithms
